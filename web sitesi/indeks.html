@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğlenceli Düşler Atölyesi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Twitter Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Eğlenceli Düşler Atölyesi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#hakkinda">Hakkında</a>
+                    <a class="nav-item nav-link" href="#iletisim">İletişim</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="galeri row">
+            <!-- Placeholder for images -->
+            <!-- Replace src attributes with your actual image paths -->
+            <div class="col-md-4 mb-4"><img src="image/28848d4c-6962-4066-8603-5b93c2e0aa44.webp" class="img-fluid" alt="Görsel 1"></div>
+            <div class="col-md-4 mb-4"><img src="image/2da6056b-f52c-45a4-8fdc-89d08cbe4e4c.webp" class="img-fluid" alt="Görsel 2"></div>
+            <div class="col-md-4 mb-4"><img src="image/3fed3752-b2c8-4459-8ca0-bbdd12f32a3a.webp" class="img-fluid" alt="Görsel 3"></div>
+            <div class="col-md-4"><img src="image/aa1beb91-3ef0-4c54-a614-c3677a99b2f0.webp" class="img-fluid" alt="Görsel 4"></div>
+            <div class="col-md-4"><img src="image/bdc606a3-fd27-42f3-a49c-95ac0449293f.webp" class="img-fluid" alt="Görsel 5"></div>
+            <div class="col-md-4"><img src="image/be1d1676-bb47-41ac-8f24-c5995aa46039.webp" class="img-fluid" alt="Görsel 6"></div>
+
+        </section>
+        <article id="hakkinda" class="mb-4">
+            <h2>Hakkında</h2>
+            <p>Merhaba Sevgili Keşifçiler! Biz, Eğlenceli Düşler Atölyesi, çocukların hayal gücünün sınırsız olduğuna inanan bir grup hayalperestiz. 2024 yılında, küçük zihinlerin büyük düşler kurduğu, renklerin ve şekillerin dans ettiği bir dünya yaratma hayaliyle yola çıktık. Bizim atölyemiz, hayal gücünüzü besleyen, merakınızı körükleyen ve yaratıcılığınızı serbest bırakan bir keşif alanıdır.</p>
+        </article>
+        <aside id="iletisim">
+            <h2>İletişim</h2>
+            <p>Bizimle Hayallerinizi Paylaşın! Hayalleriniz, sorularınız veya yaratıcı fikirleriniz mi var? Eğlenceli Düşler Atölyesi her zaman sizinle iletişime geçmekten mutluluk duyar! Aşağıdaki yollarla bize ulaşabilirsiniz:</p>
+           
+            <ul>
+                <li>Telefon 📞 Bizi Arayın: +90 123 456 78 90 (Pazartesi - Cuma: 09:00 - 17:00 arası)</li>
+                <li>E-Posta 📧 Bize Yazın: iletisim@eglencelidusleratolyesi.com</li>
+                <li>Sosyal Medya 🌐 Bizi Takip Edin (Facebook: @EglenceliDuslerAtolyesi, Instagram: @eglencelidusleratolyesi, Twitter: @EglenceliDusler)</li>
+                <li>Adres 📍 Bizi Ziyaret Edin: Eğlenceli Düşler Atölyesi, Hayal Sokak No: 1, Keşif Mahallesi, 34000 Hayaller Şehri.</li>
+            </ul>
+        </aside>
+    </main>
+    <footer class="mt-4">
+        <div class="text-center py-3">©2024 Eğlenceli Düşler Atölyesi. Tüm hakları saklıdır.</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- Image Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imageModalLabel">Görsel Önizleme</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="" id="modalImage" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header, main, section, article, aside, footer {
+    padding: 20px;
+}
+
+.galeri img {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.galeri .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+#hakkinda, #iletisim {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #e9ecef;
+    color: #333;
+}
+
